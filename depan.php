@@ -4,14 +4,15 @@ spl_autoload_register(function($class) {
 });
 
 use app\View;
-$v=new \app\View();
+$v = new \app\View();
 $v->render();
 
 echo "<br>";
-$v=new \src\View();
+$v = new \src\View();
 $v->render();
 
-$z=new \src\Mahasiswa();
+echo "<br>";
+$z = new \src\Mahasiswa();
 $z->test();
 
  ?>
