@@ -7,12 +7,17 @@ use app\View;
 $v = new \app\View();
 $v->render();
 
-echo "<br>";
-$v = new \src\View();
-$v->render();
+//echo "<br>";
+//$v = new \src\View();
+//$v->render();
+
+//echo "<br>";
+//$z = new \src\Mahasiswa();
+//$z->test();
 
 echo "<br>";
-$z = new \src\Mahasiswa();
-$z->test();
+\model\Mahasiswa::munculkanNama();
+
+
 
  ?>
